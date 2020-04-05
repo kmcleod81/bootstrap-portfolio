@@ -1,0 +1,42 @@
+@media screen and (min-width: 768px) {
+    .navbar-nav {
+        display: flex;
+        justify-content: flex-end !important;
+        background-color: blue;
+
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .navbar-nav {
+        display: flex;
+        justify-content: flex-end;
+        background-color: red;
+    }
+}
+
+
+.navbar {
+    box-shadow: 0 1px 20px 0 rgba(0,0,0,.1);
+} 
+
+.navbar-brand {
+    background-color: purple;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color: lightgrey; 
+     text-decoration:none; 
+     cursor:pointer;  
+}

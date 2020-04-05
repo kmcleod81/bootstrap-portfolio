@@ -27,12 +27,12 @@ $ npm start
 
 ## Authors
 
-* **Karla McLeod** - *Initial work* - [Kmcleod81](https://github.com/PurpleBooth)
+* **Karla McLeod** - *Initial work* - [Kmcleod81](https://github.com/kmcleod81)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## Acknowledgments
 
-* Hat tips will be inserted here
+* Billie Thompson for help with README file [PurpleBooth](https://github.com/PurpleBooth)
 
 

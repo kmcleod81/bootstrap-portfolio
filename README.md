@@ -1,6 +1,6 @@
 # bootstrap-portfolio
 
-![Algorithm schema](./iassets/images/schema.jpg)
+![Algorithm schema](./assets/images/schema.jpg)
 
 ## Table of contents
 * [General info](#general-info)

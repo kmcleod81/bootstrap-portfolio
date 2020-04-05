@@ -1,6 +1,6 @@
 # bootstrap-portfolio
 
-![Algorithm schema](./iassets/mages/schema.jpg)
+![Algorithm schema](./iassets/images/schema.jpg)
 
 ## Table of contents
 * [General info](#general-info)
@@ -27,7 +27,7 @@ $ npm start
 
 ## Authors
 
-* **Karla McLeod** - *Initial work* - [Kmcleod81](https://github.com/kmcleod81)
+* **Karla McLeod** - *Initial work* - [Kmcleod81](https://github.com/PurpleBooth)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 

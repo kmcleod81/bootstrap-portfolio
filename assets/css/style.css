@@ -1,5 +1,5 @@
 @media screen and (min-width: 340px) {
-    #navbarNav {
+    #navbarResponsive {
         background-color: blue;
         display: flex;
         flex-direction: row;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    #navbarNav {
+    #navbarResponsive {
         background-color: red;
         display: flex;
         flex-direction: row;
@@ -15,7 +15,7 @@
 }
 
 @media screen and (min-width: 980px) {
-    #navbarNav {
+    #navbarResponsive {
         background-color: greenyellow;
         display: flex;
         flex-direction: row;
@@ -31,29 +31,29 @@
 
 }
 
-a {
-    color: grey;
-}
-
-a:hover 
-{
-     color: lightgrey; 
-     text-decoration:none; 
-     cursor:pointer;  
-}
 
 
+/* Body and container elements */
 
-/* Sticky Footer Classes */
+body {
+    background: linear-gradient(to right, #7733ff,#ccb3ff);
+  }
 
 .masthead {
     height: 100vh;
     min-height: 500px;
-    background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+    background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1100');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-  }  
+}  
+
+/* Sticky Footer Classes */
+
+
+.py-5 {
+    height: 5px;
+}
 
 #page-content {
   flex: 1 0 auto;
@@ -61,8 +61,4 @@ a:hover
 
 #sticky-footer {
   flex-shrink: none;
-}
-
-body {
-  background: linear-gradient(to right, #7733ff,#ccb3ff);
 }

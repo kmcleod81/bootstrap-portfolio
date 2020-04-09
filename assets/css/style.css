@@ -49,8 +49,17 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
 }  
+
+.mainEvent {
+    font-family: 'Indie Flower', cursive;
+    color: #7733ff;
+}
+
+.img-fluid {
+    max-width: 50%; 
+    height: 50%;
+}
 
 /* Sticky Footer Classes */
 

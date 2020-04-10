@@ -1,13 +1,35 @@
-@media screen and (min-width: 340px) {
+@media screen and (min-width: 460px) {
     #navbarResponsive {
         background-color: blue;
         display: flex;
         flex-direction: row;
+
     }
 
     .navbar-brand {
+        margin-left:auto !important;
+        margin-right:auto !important;
         float: center;
+        padding-left: 100%;
+        padding-right:100%;
     }
+
+.ml-auto {
+    margin-left:auto !important;
+    margin-right:auto !important;
+}
+
+    #navbarResponsive ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #navbarResponsive ul li {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -16,6 +38,12 @@
         display: flex;
         flex-direction: row;
     }
+
+    .ml-auto {
+        margin-left:auto !important;
+        margin-right: 10px !important;
+    
+    }
 }
 
 @media screen and (min-width: 980px) {
@@ -23,6 +51,12 @@
         background-color: greenyellow;
         display: flex;
         flex-direction: row;
+    }
+
+    .ml-auto {
+        margin-left:auto !important;
+        margin-right: 10px !important;
+    
     }
 }
 
@@ -35,7 +69,6 @@
 }
 
 
-
 /* Body and container elements */
 
 body {
@@ -45,6 +78,7 @@ body {
 .masthead {
     height: 100vh;
     min-height: 500px;
+    padding-top: 20px;
     background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1100');
     background-size: cover;
     background-position: center;
@@ -56,9 +90,17 @@ body {
     color: #7733ff;
 }
 
-.img-fluid {
-    max-width: 50%; 
-    height: 50%;
+.block {
+    background-color: white;
+    border: 1px solid grey;
+    padding: 20px;
+}
+
+.aboutImg {
+    width: 200px; 
+    height:200px;
+    float: left;
+    margin: 0 20px 10px 0;
 }
 
 /* Sticky Footer Classes */

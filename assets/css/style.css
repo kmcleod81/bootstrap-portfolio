@@ -1,9 +1,13 @@
 @media screen and (min-width: 320px) {
     #navbarResponsive {
-        background-color: blue;
         display: flex;
         flex-direction: row;
+        padding: 10px;
 
+    }
+    #navbarResponsive ul li {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .navbar-brand {
@@ -34,7 +38,6 @@
 
 @media screen and (min-width: 768px) {
     #navbarResponsive {
-        background-color: red;
         display: flex;
         flex-direction: row;
     }
@@ -48,7 +51,6 @@
 
 @media screen and (min-width: 980px) {
     #navbarResponsive {
-        background-color: greenyellow;
         display: flex;
         flex-direction: row;
     }
@@ -76,6 +78,7 @@ body {
   }
 
 .mainContent {
+    overflow: hidden;
     height: 100vh;
     min-height: 500px;
     padding-top: 20px;

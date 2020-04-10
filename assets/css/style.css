@@ -1,4 +1,4 @@
-@media screen and (min-width: 460px) {
+@media screen and (min-width: 320px) {
     #navbarResponsive {
         background-color: blue;
         display: flex;
@@ -75,7 +75,7 @@ body {
     background: linear-gradient(to right, #7733ff,#ccb3ff);
   }
 
-.masthead {
+.mainContent {
     height: 100vh;
     min-height: 500px;
     padding-top: 20px;
@@ -92,7 +92,7 @@ body {
 
 .block {
     background-color: white;
-    border: 1px solid grey;
+    border: 1px solid rgb(218, 218, 218);
     padding: 20px;
 }
 
@@ -103,10 +103,18 @@ body {
     margin: 0 20px 10px 0;
 }
 
+.portfolioImg {
+    width: 200px; 
+    height: 200px;
+    float: left;
+    margin: 0 20px 10px 0;
+}
+
 /* Sticky Footer Classes */
 
 
 .py-5 {
+    border-top: 5px solid linear-gradient(to right, #7733ff,#ccb3ff);
     height: 5px;
 }
 

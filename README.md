@@ -6,7 +6,7 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Authors](#authors)
-* [Aknowledgements](#Aknowledgements)
+* [Acknowledgements](#Acknowledgements)
 
 ## General info
 A portfolio page created with HTML, Bootstrap, & CSS
@@ -22,7 +22,7 @@ Project is created with:
 
 * **Karla McLeod** - *Initial work* - [Kmcleod81](https://github.com/Kmcleod81)
 
-## Aknowledgements
+## Acknowledgements
 
 * Billie Thompson for help with README file [PurpleBooth](https://github.com/PurpleBooth)
 Photo by [thomas heintz](https://unsplash.com/@thomas2006?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
